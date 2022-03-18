@@ -1,0 +1,6 @@
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+tokens.json
+
+__pycache__/
