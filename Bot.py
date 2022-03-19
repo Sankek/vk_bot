@@ -1,3 +1,4 @@
+import os
 import json
 
 import vk_api
@@ -7,7 +8,7 @@ from vk_api.tools import VkTools
 from vk_api.bot_longpoll import VkBotLongPoll, VkBotEventType
 
 
-with open('tokens.json', 'r') as fp:
+with open(os.path.join(os.path.dirname(__file__), 'tokens.json'), 'r') as fp:
     private_data = json.load(fp)
 
 
