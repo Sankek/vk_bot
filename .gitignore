@@ -4,3 +4,7 @@
 tokens.json
 
 __pycache__/
+
+*.egg-info
+*.egg/*
+*.eggs/*
