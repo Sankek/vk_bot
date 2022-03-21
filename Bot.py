@@ -62,7 +62,7 @@ class MessageHandler:
     """
 
     def __init__(self):
-        from glitch_text.glitchmaker import Glitcher
+        from vk_bot.glitch_text.glitchmaker import Glitcher
         self.glitcher = Glitcher()
     
     
